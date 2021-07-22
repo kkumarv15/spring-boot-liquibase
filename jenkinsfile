@@ -64,7 +64,7 @@ pipeline {
                 }
         }
 
-        stage("mvn build") {
+        stage("Nexus Package build") {
             steps {
                 script {
                     // If you are using Windows then you should use "bat" step
