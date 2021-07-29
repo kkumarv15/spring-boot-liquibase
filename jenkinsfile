@@ -144,7 +144,7 @@ pipeline {
             }
         } 
    
-  node {
+/*  node {
   stage('JIRA') {
     def testIssue = [fields: [ project: [key: 'ZEN'],
                                  summary: 'New JIRA Created from Jenkins.',
@@ -154,7 +154,7 @@ pipeline {
       echo response.successful.toString()
       echo response.data.toString()
     }
-}
+}*/
         
         stage ('Starting downstream job ') {
         steps {
