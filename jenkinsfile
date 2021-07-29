@@ -153,13 +153,13 @@ pipeline {
              echo response.successful.toString()
              echo response.data.toString()
            }
-       
+       }
         stage ('Starting downstream job ') {
         steps {
         build job: 'Install_springbootliquibase_App'
           }
       }      
     } 
-    }
+    
 }
 
