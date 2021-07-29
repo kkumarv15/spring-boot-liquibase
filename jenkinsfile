@@ -143,8 +143,7 @@ pipeline {
                 }
             }
         }
-     
-     
+    
        post {
          always {
            jiraSendBuildInfo site: 'http://34.216.182.182:8081/'
@@ -157,8 +156,7 @@ pipeline {
         failure {
          println "There are some failing tests."
          }
-     } 
-
+     
         stage ('Starting downstream job ') {
         steps {
         build job: 'Install_springbootliquibase_App'
