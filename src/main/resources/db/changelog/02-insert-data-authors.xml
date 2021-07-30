@@ -36,6 +36,13 @@
       <column name="id" valueNumeric="7"/>
       <column name="name" value="author_07"/>
     </insert>
-    
+    <insert tableName="authors">
+      <column name="id" valueNumeric="8"/>
+      <column name="name" value="author_08"/>
+    </insert>
+    <insert tableName="authors">
+      <column name="id" valueNumeric="9"/>
+      <column name="name" value="Savinder"/>
+    </insert>
   </changeSet>
 </databaseChangeLog>
