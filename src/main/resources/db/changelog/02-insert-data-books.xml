@@ -51,8 +51,13 @@
       </insert>
       <insert tableName="books">
           <column name="id" valueNumeric="9"/>
-          <column name="name" value="DevOps"/>
+          <column name="name" value="Devops"/>
           <column name="author" valueNumeric="09"/>
+      </insert>
+      <insert tableName="books">
+          <column name="id" valueNumeric="10"/>
+          <column name="name" value="SpringBootLiquibase"/>
+          <column name="author" valueNumeric="10"/>
       </insert>
   </changeSet>
 </databaseChangeLog>

@@ -44,5 +44,10 @@
       <column name="id" valueNumeric="9"/>
       <column name="name" value="Savinder"/>
     </insert>
+    <insert tableName="authors">
+      <column name="id" valueNumeric="10"/>
+      <column name="name" value="Vivek"/>
+    </insert>
+
   </changeSet>
 </databaseChangeLog>
