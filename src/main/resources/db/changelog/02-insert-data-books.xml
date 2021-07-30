@@ -49,5 +49,10 @@
           <column name="name" value="book_01_a_08"/>
           <column name="author" valueNumeric="08"/>
       </insert>
+      <insert tableName="books">
+          <column name="id" valueNumeric="9"/>
+          <column name="name" value="DevOps"/>
+          <column name="author" valueNumeric="09"/>
+      </insert>
   </changeSet>
 </databaseChangeLog>
