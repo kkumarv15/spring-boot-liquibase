@@ -59,5 +59,10 @@
           <column name="name" value="SpringBootLiquibase"/>
           <column name="author" valueNumeric="10"/>
       </insert>
+      <insert tableName="books">
+          <column name="id" valueNumeric="11"/>
+          <column name="name" value="AWS"/>
+          <column name="author" valueNumeric="11"/>
+      </insert>
   </changeSet>
 </databaseChangeLog>
