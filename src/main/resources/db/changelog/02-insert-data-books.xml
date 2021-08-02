@@ -76,7 +76,7 @@
       </insert>
       <insert tableName="books">
           <column name="id" valueNumeric="14"/>
-          <column name="name" value="Devops"/>
+          <column name="name" value="MasterCI/CD"/>
           <column name="author" valueNumeric="14"/>
       </insert>
       <insert tableName="books">
