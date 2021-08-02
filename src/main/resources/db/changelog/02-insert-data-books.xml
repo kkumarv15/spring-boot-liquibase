@@ -69,5 +69,10 @@
           <column name="name" value="Azure"/>
           <column name="author" valueNumeric="12"/>
       </insert>
+      <insert tableName="books">
+          <column name="id" valueNumeric="13"/>
+          <column name="name" value="GCP"/>
+          <column name="author" valueNumeric="13"/>
+      </insert>
   </changeSet>
 </databaseChangeLog>
