@@ -62,7 +62,7 @@
     </insert>
     <insert tableName="authors">
       <column name="id" valueNumeric="14"/>
-      <column name="name" value="John Grisham"/>
+      <column name="name" value="Ajit"/>
     </insert>
     <insert tableName="authors">
       <column name="id" valueNumeric="15"/>
