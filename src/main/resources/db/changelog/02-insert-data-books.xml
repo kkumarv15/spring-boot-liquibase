@@ -79,10 +79,5 @@
           <column name="name" value="The Runway Jury"/>
           <column name="author" valueNumeric="14"/>
       </insert>
-      <insert tableName="books">
-          <column name="id" valueNumeric="15"/>
-          <column name="name" value="Conspiracy"/>
-          <column name="author" valueNumeric="14"/>
-      </insert>
   </changeSet>
 </databaseChangeLog>

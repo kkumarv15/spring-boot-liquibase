@@ -24,7 +24,7 @@ public class AuthorsManagerTest {
   public void getAllAuthorsReturnDataFromDatabase() throws Exception {
     List<Author> authors = authorsManager.getAllAuthors().collect(Collectors.toList());
     assertFalse(authors.isEmpty());
-    assertEquals(15, authors.size());
+    assertEquals(14, authors.size());
 
     // If you want to compare all the authors to what we inserted in '02-insert-data-authors.xml'
     // authors.forEach(System.out::println);
