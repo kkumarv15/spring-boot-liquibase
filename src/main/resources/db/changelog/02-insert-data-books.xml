@@ -10,68 +10,68 @@
     <comment>Inserting Books</comment>
     <insert tableName="books">
       <column name="id" valueNumeric="1"/>
-      <column name="name" value="book_01_a_01"/>
+      <column name="name" value="The Painted House"/>
       <column name="author" valueNumeric="01"/>
     </insert>
     <insert tableName="books">
       <column name="id" valueNumeric="2"/>
-      <column name="name" value="book_02_a_02"/>
+      <column name="name" value="The Client"/>
       <column name="author" valueNumeric="02"/>
     </insert>
     <insert tableName="books">
       <column name="id" valueNumeric="3"/>
-      <column name="name" value="book_01_a_03"/>
+      <column name="name" value="A Time to Kill"/>
       <column name="author" valueNumeric="03"/>
     </insert>
     <insert tableName="books">
       <column name="id" valueNumeric="4"/>
-      <column name="name" value="book_01_a_04"/>
+      <column name="name" value="Fountainhead"/>
       <column name="author" valueNumeric="04"/>
     </insert>
     <insert tableName="books">
       <column name="id" valueNumeric="5"/>
-      <column name="name" value="book_01_a_05"/>
+      <column name="name" value="Atlas Shrugged"/>
       <column name="author" valueNumeric="05"/>
     </insert>
      <insert tableName="books">
       <column name="id" valueNumeric="6"/>
-      <column name="name" value="book_01_a_06"/>
+      <column name="name" value="A Tree Grows In Brooklyn"/>
       <column name="author" valueNumeric="06"/>
     </insert>
     
  <insert tableName="books">
       <column name="id" valueNumeric="7"/>
-      <column name="name" value="book_01_a_07"/>
+      <column name="name" value="Tomorrow Will Be Better"/>
       <column name="author" valueNumeric="07"/>
     </insert>
       <insert tableName="books">
           <column name="id" valueNumeric="8"/>
-          <column name="name" value="book_01_a_08"/>
+          <column name="name" value="Life After Life: Winner of the Costa Novel Award"/>
           <column name="author" valueNumeric="08"/>
       </insert>
       <insert tableName="books">
           <column name="id" valueNumeric="9"/>
-          <column name="name" value="DevOps"/>
+          <column name="name" value="Who Moved My Cheese"/>
           <column name="author" valueNumeric="09"/>
       </insert>
       <insert tableName="books">
           <column name="id" valueNumeric="10"/>
-          <column name="name" value="SpringBootLiquibase"/>
+          <column name="name" value="I, Steve - Steve Jobs In His Own Words"/>
           <column name="author" valueNumeric="10"/>
       </insert>
       <insert tableName="books">
           <column name="id" valueNumeric="11"/>
-          <column name="name" value="AWS"/>
+          <column name="name" value="Peaks and Valleys: Making Good and Bad Times Work For"/>
           <column name="author" valueNumeric="11"/>
       </insert>
       <insert tableName="books">
           <column name="id" valueNumeric="12"/>
-          <column name="name" value="Azure"/>
+          <column name="name" value="The Google Story"/>
           <column name="author" valueNumeric="12"/>
       </insert>
       <insert tableName="books">
           <column name="id" valueNumeric="13"/>
-          <column name="name" value="GCP"/>
+          <column name="name" value="The Story Of My Life"/>
           <column name="author" valueNumeric="13"/>
       </insert>
   </changeSet>
