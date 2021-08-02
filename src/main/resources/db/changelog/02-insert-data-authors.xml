@@ -10,55 +10,55 @@
     <comment>Inserting Authors</comment>
     <insert tableName="authors">
       <column name="id" valueNumeric="1"/>
-      <column name="name" value="author_01"/>
+      <column name="name" value="John Grisham"/>
     </insert>
     <insert tableName="authors">
       <column name="id" valueNumeric="2"/>
-      <column name="name" value="author_02"/>
+      <column name="name" value="John Grisham"/>
     </insert>
     <insert tableName="authors">
       <column name="id" valueNumeric="3"/>
-      <column name="name" value="author_03"/>
+      <column name="name" value="John Grisham"/>
     </insert>
     <insert tableName="authors">
       <column name="id" valueNumeric="4"/>
-      <column name="name" value="author_04"/>
+      <column name="name" value="Ian Rand"/>
     </insert>
     <insert tableName="authors">
       <column name="id" valueNumeric="5"/>
-      <column name="name" value="author_05"/>
+      <column name="name" value="Ian Rand "/>
     </insert>
       <insert tableName="authors">
       <column name="id" valueNumeric="6"/>
-      <column name="name" value="author_06"/>
+      <column name="name" value="Betty Smith"/>
     </insert>  
     <insert tableName="authors">
       <column name="id" valueNumeric="7"/>
-      <column name="name" value="author_07"/>
+      <column name="name" value="Betty Smith"/>
     </insert>
     <insert tableName="authors">
       <column name="id" valueNumeric="8"/>
-      <column name="name" value="author_08"/>
+      <column name="name" value="Kate Atkinson"/>
     </insert>
     <insert tableName="authors">
       <column name="id" valueNumeric="9"/>
-      <column name="name" value="Savinder"/>
+      <column name="name" value="Spencer Johnson"/>
     </insert>
     <insert tableName="authors">
       <column name="id" valueNumeric="10"/>
-      <column name="name" value="Kunal"/>
+      <column name="name" value="George Beahm"/>
     </insert>
     <insert tableName="authors">
       <column name="id" valueNumeric="11"/>
-      <column name="name" value="Ravi"/>
+      <column name="name" value="Peak and Valleys"/>
     </insert>
     <insert tableName="authors">
       <column name="id" valueNumeric="12"/>
-      <column name="name" value="Kumar"/>
+      <column name="name" value="David A. Wise"/>
     </insert>
     <insert tableName="authors">
       <column name="id" valueNumeric="13"/>
-      <column name="name" value="Manish"/>
+      <column name="name" value="Helen Killer"/>
     </insert>
   </changeSet>
 </databaseChangeLog>
