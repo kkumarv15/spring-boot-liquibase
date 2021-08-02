@@ -6,7 +6,7 @@
   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
 
-  <changeSet id="03" author="AjithNVivek">
+  <changeSet id="03" author="hhimanshu">
     <comment>Inserting Books</comment>
     <insert tableName="books">
       <column name="id" valueNumeric="1"/>
@@ -73,6 +73,11 @@
           <column name="id" valueNumeric="13"/>
           <column name="name" value="The Story Of My Life"/>
           <column name="author" valueNumeric="13"/>
+      </insert>
+      <insert tableName="books">
+          <column name="id" valueNumeric="14"/>
+          <column name="name" value="A Time to Mercy"/>
+          <column name="author" valueNumeric="14"/>
       </insert>
   </changeSet>
 </databaseChangeLog>
